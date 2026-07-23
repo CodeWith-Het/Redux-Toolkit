@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+.counting{
+    padding: 1.5rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    font-size: 1.5rem;
+}
+
+.buttons{
+    display: flex;
+    gap:0.5rem;
+}
+
+h1{
+    color: white;
+}
+
+.buttons button{
+    background-color: aqua;
+    color: black;
+    padding: 0.5rem 0.5rem;
+    border: none;
+    cursor: pointer;
+}
+
+.buttons button:hover{
+    background-color: lightseagreen;
+}
